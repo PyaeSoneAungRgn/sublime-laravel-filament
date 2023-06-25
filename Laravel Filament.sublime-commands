@@ -1,0 +1,107 @@
+[
+    {
+        "caption": "Laravel Filament: Make user",
+        "command": "laravel_filament",
+        "args": {
+            "command": "make:filament-user"
+        }
+    },
+    {
+        "caption": "Laravel Filament: Make widget",
+        "command": "laravel_filament",
+        "args": {
+            "command": "make:filament-widget",
+            "fill_in": true,
+            "fill_in_lable": "Enter widget name"
+        }
+    },
+    {
+        "caption": "Laravel Filament: Check translations",
+        "command": "laravel_filament",
+        "args": {
+            "command": "filament:check-translations",
+            "fill_in": true,
+            "fill_in_lable": "Enter locales"
+        }
+    },
+    {
+        "caption": "Laravel Filament: Upgrade",
+        "command": "laravel_filament",
+        "args": {
+            "command": "filament:upgrade"
+        }
+    },
+    {
+        "caption": "Laravel Filament: Make belongs-to-many",
+        "command": "laravel_filament",
+        "args": {
+            "command": "make:filament-belongs-to-many",
+            "fill_in": true,
+            "fill_in_lable": "Enter resource, relationship, recordTitleAttribute"
+        }
+    },
+    {
+        "caption": "Laravel Filament: Make has-many",
+        "command": "laravel_filament",
+        "args": {
+            "command": "make:filament-has-many",
+            "fill_in": true,
+            "fill_in_lable": "Enter resource, relationship, recordTitleAttribute"
+        }
+    },
+    {
+        "caption": "Laravel Filament: Make has-many-through",
+        "command": "laravel_filament",
+        "args": {
+            "command": "make:filament-has-many-through",
+            "fill_in": true,
+            "fill_in_lable": "Enter resource, relationship, recordTitleAttribute"
+        }
+    },
+    {
+        "caption": "Laravel Filament: Make morph-many",
+        "command": "laravel_filament",
+        "args": {
+            "command": "make:filament-morph-many",
+            "fill_in": true,
+            "fill_in_lable": "Enter resource, relationship, recordTitleAttribute"
+        }
+    },
+    {
+        "caption": "Laravel Filament: Make morph-to-many",
+        "command": "laravel_filament",
+        "args": {
+            "command": "make:filament-morph-to-many",
+            "fill_in": true,
+            "fill_in_lable": "Enter resource, relationship, recordTitleAttribute"
+        }
+    },
+    {
+        "caption": "Laravel Filament: Make page",
+        "command": "laravel_filament",
+        "args": {
+        "args": {
+            "command": "make:filament-page",
+            "fill_in": true,
+            "fill_in_lable": "Enter page name"
+        }
+    },
+    {
+        "caption": "Laravel Filament: Make relation-manager",
+        "command": "laravel_filament",
+        "args": {
+            "command": "make:filament-relation-manager",
+            "fill_in": true,
+            "fill_in_lable": "Enter resource, relationship, recordTitleAttribute"
+        }
+    },
+    {
+        "caption": "Laravel Filament: Make resource",
+        "command": "laravel_filament",
+        "args": {
+            "command": "make:filament-resource",
+            "fill_in": true,
+            "fill_in_lable": "Enter resource name"
+        }
+    },
+]
