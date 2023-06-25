@@ -1,6 +1,6 @@
 # Laravel Filament for Sublime Text
 
-A sublime text package for [Laravel Filament](https://filamentphp.com).
+A sublime package to run the [Laravel Filament](https://filamentphp.com) Artisan CLI directly within the Sublime Text interface, without the need to open or use the command line.
 
 ## Installation
 
