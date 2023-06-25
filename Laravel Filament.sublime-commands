@@ -80,7 +80,6 @@
         "caption": "Laravel Filament: Make page",
         "command": "laravel_filament",
         "args": {
-        "args": {
             "command": "make:filament-page",
             "fill_in": true,
             "fill_in_lable": "Enter page name"
@@ -103,5 +102,5 @@
             "fill_in": true,
             "fill_in_lable": "Enter resource name"
         }
-    },
+    }
 ]
