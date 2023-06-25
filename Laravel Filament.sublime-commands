@@ -3,7 +3,13 @@
         "caption": "Laravel Filament: Make user",
         "command": "laravel_filament",
         "args": {
-            "command": "make:filament-user"
+            "command": "make:filament-user",
+            "fill_in": true,
+            "fill_in_label": "Enter user",
+            "fill_in_two": true,
+            "fill_in_two_label": "Enter email",
+            "fill_in_three": true,
+            "fill_in_three_label": "Enter password"
         }
     },
     {
@@ -12,7 +18,9 @@
         "args": {
             "command": "make:filament-widget",
             "fill_in": true,
-            "fill_in_lable": "Enter widget name"
+            "fill_in_label": "Enter widget name",
+            "fill_in_two": true,
+            "fill_in_two_label": "Enter resource"
         }
     },
     {
@@ -21,7 +29,7 @@
         "args": {
             "command": "filament:check-translations",
             "fill_in": true,
-            "fill_in_lable": "Enter locales"
+            "fill_in_label": "Enter locales"
         }
     },
     {
@@ -37,7 +45,11 @@
         "args": {
             "command": "make:filament-belongs-to-many",
             "fill_in": true,
-            "fill_in_lable": "Enter resource, relationship, recordTitleAttribute"
+            "fill_in_label": "Enter resource",
+            "fill_in_two": true,
+            "fill_in_two_label": "Enter relationship",
+            "fill_in_three": true,
+            "fill_in_three_label": "Enter recordTitleAttribute"
         }
     },
     {
@@ -46,7 +58,11 @@
         "args": {
             "command": "make:filament-has-many",
             "fill_in": true,
-            "fill_in_lable": "Enter resource, relationship, recordTitleAttribute"
+            "fill_in_label": "Enter resource",
+            "fill_in_two": true,
+            "fill_in_two_label": "Enter relationship",
+            "fill_in_three": true,
+            "fill_in_three_label": "Enter recordTitleAttribute"
         }
     },
     {
@@ -55,7 +71,11 @@
         "args": {
             "command": "make:filament-has-many-through",
             "fill_in": true,
-            "fill_in_lable": "Enter resource, relationship, recordTitleAttribute"
+            "fill_in_label": "Enter resource",
+            "fill_in_two": true,
+            "fill_in_two_label": "Enter relationship",
+            "fill_in_three": true,
+            "fill_in_three_label": "Enter recordTitleAttribute"
         }
     },
     {
@@ -64,7 +84,11 @@
         "args": {
             "command": "make:filament-morph-many",
             "fill_in": true,
-            "fill_in_lable": "Enter resource, relationship, recordTitleAttribute"
+            "fill_in_label": "Enter resource",
+            "fill_in_two": true,
+            "fill_in_two_label": "Enter relationship",
+            "fill_in_three": true,
+            "fill_in_three_label": "Enter recordTitleAttribute"
         }
     },
     {
@@ -73,7 +97,11 @@
         "args": {
             "command": "make:filament-morph-to-many",
             "fill_in": true,
-            "fill_in_lable": "Enter resource, relationship, recordTitleAttribute"
+            "fill_in_label": "Enter resource",
+            "fill_in_two": true,
+            "fill_in_two_label": "Enter relationship",
+            "fill_in_three": true,
+            "fill_in_three_label": "Enter recordTitleAttribute"
         }
     },
     {
@@ -82,7 +110,11 @@
         "args": {
             "command": "make:filament-page",
             "fill_in": true,
-            "fill_in_lable": "Enter page name"
+            "fill_in_label": "Enter page name",
+            "fill_in_two": true,
+            "fill_in_two_label": "Enter resource",
+            "fill_in_three": true,
+            "fill_in_three_label": "Enter type"
         }
     },
     {
@@ -91,7 +123,11 @@
         "args": {
             "command": "make:filament-relation-manager",
             "fill_in": true,
-            "fill_in_lable": "Enter resource, relationship, recordTitleAttribute"
+            "fill_in_label": "Enter resource",
+            "fill_in_two": true,
+            "fill_in_two_label": "Enter relationship",
+            "fill_in_three": true,
+            "fill_in_three_label": "Enter recordTitleAttribute"
         }
     },
     {
@@ -100,7 +136,7 @@
         "args": {
             "command": "make:filament-resource",
             "fill_in": true,
-            "fill_in_lable": "Enter resource name"
+            "fill_in_label": "Enter resource name"
         }
     }
 ]
