@@ -1,4 +1,4 @@
-# Laravel Filament For Sublime Text
+# Laravel Filament for Sublime Text
 
 A sublime text package for [Laravel Filament](https://filamentphp.com).
 
@@ -15,7 +15,20 @@ A sublime text package for [Laravel Filament](https://filamentphp.com).
 - Open `Command Palette`
 - Search `Laravel Filament`
 
-Please Check [Laravel Pint Official Documentation](https://laravel.com/docs/9.x/pint) for more information.
+## Available Commands
+
+- Laravel Filament: Make user
+- Laravel Filament: Make resource
+- Laravel Filament: Make page
+- Laravel Filament: Make widget
+- Laravel Filament: Make belongs-to-many
+- Laravel Filament: Make has-many
+- Laravel Filament: Make has-many-through
+- Laravel Filament: Make morph-many
+- Laravel Filament: Make morph-to-many
+- Laravel Filament: Make relation-manager
+- Laravel Filament: Check translations
+- Laravel Filament: Upgrade
 
 ## Credit
 
