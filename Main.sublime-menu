@@ -6,7 +6,10 @@
             {
                 "caption": "Laravel Filament...",
                 "command": "show_overlay",
-                "args": {"overlay": "command_palette", "text": "Laravel Filament " }
+                "args": {
+                    "overlay": "command_palette", 
+                    "text": "Laravel Filament " 
+                }
             }
         ]
     },
@@ -24,12 +27,17 @@
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/Laravel Filament/Laravel Filament.sublime-settings"},
+                                "args": {
+                                    "file": "${packages}/Laravel Filament/Laravel Filament.sublime-settings"
+                                },
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "edit_settings",
-                                "args": {"file": "${packages}/User/Laravel Filament.sublime-settings"},
+                                "args": {
+                                    "base_file": "${packages}/Laravel Filament/Laravel Filament.sublime-settings",
+                                    "default": "${packages}/User/Laravel Filament.sublime-settings"
+                                },
                                 "caption": "Settings – User"
                             }
                         ]
