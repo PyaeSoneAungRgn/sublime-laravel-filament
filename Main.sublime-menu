@@ -1,7 +1,6 @@
 [
     {
         "id": "tools",
-        "caption": "Tools",
         "children":
         [
             {
@@ -12,14 +11,10 @@
         ]
     },
     {
-        "caption": "Preferences",
-        "mnemonic": "n",
         "id": "preferences",
         "children":
         [
             {
-                "caption": "Package Settings",
-                "mnemonic": "P",
                 "id": "package-settings",
                 "children":
                 [
@@ -33,14 +28,9 @@
                                 "caption": "Settings – Default"
                             },
                             {
-                                "command": "open_file",
+                                "command": "edit_settings",
                                 "args": {"file": "${packages}/User/Laravel Filament.sublime-settings"},
                                 "caption": "Settings – User"
-                            },
-                            {
-                                "command": "open_file",
-                                "args": {"file": "${packages}/User/Laravel Filament.sublime-commands"},
-                                "caption": "Commands – User"
                             }
                         ]
                     }
