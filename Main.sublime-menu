@@ -26,19 +26,12 @@
                         "children":
                         [
                             {
-                                "command": "open_file",
-                                "args": {
-                                    "file": "${packages}/Laravel Filament/Laravel Filament.sublime-settings"
-                                },
-                                "caption": "Settings – Default"
-                            },
-                            {
+                                "caption": "Settings",
                                 "command": "edit_settings",
                                 "args": {
                                     "base_file": "${packages}/Laravel Filament/Laravel Filament.sublime-settings",
                                     "default": "${packages}/User/Laravel Filament.sublime-settings"
-                                },
-                                "caption": "Settings – User"
+                                }
                             }
                         ]
                     }
