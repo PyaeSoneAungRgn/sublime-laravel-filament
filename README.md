@@ -5,8 +5,6 @@ A sublime package to run the [Laravel Filament](https://filamentphp.com) Artisan
 ## Installation
 
 - Open `Command Palette`
-- Select `Package Control: Add Repository`
-- Enter repository url `https://github.com/PyaeSoneAungRgn/sublime-laravel-filament`
 - Select `Package Control: Install Package`
 - Search `Laravel Filament`
 
