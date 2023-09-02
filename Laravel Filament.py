@@ -48,7 +48,7 @@ class LaravelFilamentCommand(sublime_plugin.WindowCommand):
         if 'make:filament-user' in self.command:
             self.args.append('--name=' + fill_in)
         else:
-            self.args.append(fill_in)
+            self.args.extend(shlex.split(str(fill_in)))
 
         if self.fill_in_two_accept is True:
             self.window.show_input_panel(self.fill_in_two_label, "", self.on_fill_in_two, None, None)
@@ -64,7 +64,7 @@ class LaravelFilamentCommand(sublime_plugin.WindowCommand):
             elif 'make:filament-widget' in self.command:
                 self.args.append('--resource=' + fill_in)
             else:
-                self.args.append(fill_in)
+                self.args.extend(shlex.split(str(fill_in)))
 
             if self.fill_in_three_accept is True:
                 self.window.show_input_panel(self.fill_in_three_label, "", self.on_fill_in_three, None, None)
@@ -80,7 +80,7 @@ class LaravelFilamentCommand(sublime_plugin.WindowCommand):
             elif 'make:filament-page' in self.command:
                 self.args.append('--type=' + fill_in)
             else:
-                self.args.append(fill_in)
+                self.args.extend(shlex.split(str(fill_in)))
 
             self.on_done()
             sublime.status_message(self.args)
